@@ -1,0 +1,26 @@
+.container [class*="card"] {
+  margin: 1% !important;
+  margin-bottom: 30px !important;
+}
+
+
+@media screen and (min-width: $media-small) {
+  .container [class*="card"].g--4 {
+    width: 31.3333% !important;
+  }  
+}
+
+
+.car p {
+  word-wrap: break-word;
+}
+
+textarea {
+  min-height: 125px;
+  width: 99%;
+  resize: vertical;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(26, 188, 156);
+  padding: 10px 5px;
+}
